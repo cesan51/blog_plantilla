@@ -1,0 +1,342 @@
+<html lang="en">
+ 
+
+<!--Enlace Bootstrap-->>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     
+    <!--Enlace Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Desarrollador de Software. Pagina Web Informativa">
+      <meta name="author" content="CESAR ANTONIO GÓMEZ MONTAÑO">
+      <meta name="generator" content="CESAN">
+     
+  
+      <!-- Favicons -->
+      <link rel="icon " href="/assets/github.png">
+  
+  </head>
+  
+  <!-- Hoja de estilos -->
+  <style>
+    
+    .container-fluid li a:hover{
+            background-color: aqua;
+            border: aqua;
+
+        }
+        .image_principal{
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            margin-top: 2%;
+        }
+
+       .image_texto{
+           color:white;
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%,-50%);
+           font-size: 2rem;
+           
+           padding: 20px;
+           font-family: Arial, Helvetica, sans-serif;    
+        }
+
+        .sobre h1{
+            font-size: 1.6rem;
+        }
+        .sobre h2{
+            font-size: 1.4rem;
+        }
+
+        .sobre p{
+            font-size: 1.2rem;
+        }
+
+        .container-fluid button{
+            background-color: rgba(240, 248, 255, 0.479);
+            border:rgba(240, 248, 255, 0.479) ;
+        }
+        .sobre{
+            margin-left: 7%;
+            margin-right: 7%;
+            margin-top: 3%;
+        }
+        .btn:hover{
+            background-color: aqua;
+            border: aqua;
+        }
+        .proyects{
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .col-lg-4 img{
+            transition: 0.2s;
+            object-fit: cover;
+        }
+        .col-lg-4 img:hover{
+            transform: scale(1.2);
+        }
+        .col-lg-4{
+            text-align: center;
+        }
+        .col-lg-4 img{
+            transition: 0.2s;
+            object-fit: cover;
+        }
+        .col-lg-4 img:hover{
+            transform: scale(1.2);
+        }
+        .col-lg-4 img{
+            transition: 0.2s;
+            object-fit: cover;
+        }
+        .col-lg-4 img:hover{
+            transform: scale(1.2);
+        }
+        .container{
+            background-color: whitesmoke;
+            margin: 2% auto;
+        }
+        h2{
+            font-size: 1rem;
+        }
+        .col-lg-4 img{
+            transition: 0.2s;
+            object-fit: cover;
+        }
+        .col-lg-4 img:hover{
+            transform: scale(1.2);
+        }
+        .py-5{
+            font-size: 0.8rem;
+       }
+        
+
+  </style>
+  
+  
+  <body><header>
+     <!--Cabeza Navbar-->
+    <nav class="bg-dark navbar navbar-expand-md bg-  fixed-top text-white ">
+      <div class="container-fluid">
+        <a class="text-white navbar-brand" href="#">CESAN</a>
+       
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+         <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+         
+          
+  
+             <li class="nav-item dropdown">
+               <a class="text-white nav-link " aria-current="page" href="#nomadas">nomadas</a>
+             </li>
+ 
+        
+           <li class="nav-item dropdown ">
+                <a class="text-white nav-link " aria-current="page" href="#reconocimiento">Reconocimiento</a>
+            </li>
+  
+            <li class="nav-item dropdown">
+              <a class="text-white nav-link " aria-current="page" href="#Torneos">Torneos</a>
+            </li>
+
+
+            <li class="nav-item dropdown">
+                <a class="text-white nav-link " aria-current="page" href="#contactanos">Contactame</a>
+            </li>
+  
+           
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+
+     <!-- Script js-->
+     <script src="layout.js"></script>
+
+
+
+    <!--Imagen Principal de desarrollo -->
+      <div class="image_principal">
+        <img src="assets/source.jpg" class="d-block w-100 width:100%" alt="Fondo programing">
+        
+        <p class="image_texto ">
+            <img  src="assets/cesan.webp" class="bd-placeholder-img " width="90" height="90" alt="">
+        </p>
+      </div>
+    <!--/.Imagen Principal de desarrollo-->
+
+
+
+
+        <!--Descripción de habilidades -->
+        <a id="sobre_mi"></a>
+         <!--Texto y contenido -->
+      <div class="container1">
+        <div class="sobre">
+            
+  
+          <a id="sobre_mi"></a>
+          <br>
+          <div class="row featurette">
+            <div class="center">
+              <h1 class="featurette-heading fw-normal lh-1">Nomadas.</h1>
+              <h2 class="featurette-heading fw-normal lh-2">Deporte Torneos Competicion.</h2>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique convallis nisi, ut rutrum ante suscipit quis. Nulla lobortis finibus consequat. Donec eleifend volutpat pellentesque. Duis quis elementum nulla, sed aliquam purus. Mauris molestie dictum ipsum, at viverra augue dignissim vel. Nullam facilisis eget sem in imperdiet. In hendrerit volutpat consectetur.
+
+                Aliquam rutrum placerat metus. Cras ac leo egestas, ornare ligula ac, elementum enim. Phasellus rhoncus placerat orci, vel iaculis libero. Mauris eu ornare nisl. Praesent molestie rhoncus sodales. In eu tortor orci. Phasellus suscipit efficitur eros, ac rhoncus arcu fermentum id. Vestibulum facilisis urna vel malesuada malesuada. Morbi volutpat lacus eu pellentesque imperdiet. Curabitur sed eros arcu. Fusce facilisis eu enim congue efficitur. Duis condimentum mollis neque, at mattis nisi. Nam facilisis arcu mattis nisl iaculis, consectetur dictum ipsum hendrerit.<br>
+                 
+            </p>
+              <p class="lead">.</p>
+            
+          </div>
+          
+      </div><!--/.Descripción de nomadas -->
+
+
+      
+      
+      <!--Container Reconocimiento -->
+       <a id="reconocimiento"></a><br>
+       <div class="container">
+           <!-- row reco -->
+          <hr class="featurette-divider">
+          <h3> Reconocimiento</h3><br><br>
+          <div class="row">
+
+            <div class="col-lg-4">
+               <img  src="assets/python_pro.png" class="bd-placeholder-img rounded-circle" width="110" height="110" alt="">
+      
+              <h2 class="fw-normal">Python</h2>
+              <p><a class="btn btn-secondary" href="https://www.python.org/" target="_blank">Conoce más »</a></p>
+            </div><!-- /python -->
+
+        
+
+            <div class="col-lg-4">
+              <img src="assets/html2.png" class="bd-placeholder-img rounded-circle" width="110" height="110" margin-right="15px" alt="">
+              
+              <h2 class="fw-normal">HTML</h2>
+              
+              <p><a class="btn btn-secondary" href="https://www.w3.org/TR/html/" target="_blank">Conoce más »</a></p>
+            </div><!-- /HTML -->
+
+
+            
+            <div class="col-lg-4">
+                <img src="assets/css1.png" class="bd-placeholder-img rounded-circle" width="110" height="110" margin-right="15px" alt="">
+                
+                <h2 class="fw-normal">CSS</h2>
+                
+                <p><a class="btn btn-secondary" href="https://www.w3.org/Style/CSS/" target="_blank">Conoce más »</a></p>
+            </div><!-- /CSS -->
+
+
+            <div class="col-lg-4">
+                <img src="assets/angular.jpg" class="bd-placeholder-img rounded-circle" width="110" height="110" margin-right="15px" alt="">
+                
+                <h2 class="fw-normal">Angular</h2>
+                
+                <p><a class="btn btn-secondary" href="https://angular.io/docs" target="_blank">Conoce más »</a></p>
+              </div><!-- /Angular -->
+  
+  
+              
+              <div class="col-lg-4">
+                  <img src="assets/bootstrap.png" class="bd-placeholder-img rounded-circle" width="110" height="110" margin-right="15px" alt="">
+                  
+                  <h2 class="fw-normal">Bootstrap</h2>
+                  <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/" target="_blank">Conoce más »</a></p>
+                </div><!-- /Bootsrap -->
+
+
+                <div class="col-lg-4">
+                    <img src="assets/flask_pro.png"  class="bd-placeholder-img rounded-circle" width="110" height="110" margin-right="15px" alt="">
+                    
+                    <h2 class="fw-normal">Flask</h2>
+                    <p><a class="btn btn-secondary" href="https://flask.palletsprojects.com/en/2.1.x/" target="_blank">Conoce más »</a></p>
+                </div><!-- /Flask -->
+
+             
+          </div><!-- /.row -->
+      
+        </div><!-- /.Container Skills -->
+
+
+
+
+     
+        
+
+            
+     <!-- Pie de pagina-->
+     <a id="contactanos"></a><br><br>
+  <div class="b-example-divider"></div>
+  
+  <div class="bg-dark text-secondary mt-5 px-4 py-2 text-center">
+
+
+    <div class="py-5">
+      <h3 class="display-5 fw-bold text-white">cesan51</h3>
+      <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-4 text-white">Desarrollador de Software</p> <p></p>
+          <div class="row">
+
+            <div class="col-lg-4">
+                <img  src="assets/whatsapp.webp" class="bd-placeholder-img " width="35" height="35" alt="">
+                <p class="fs-1 mb-1 text-white">Whatsapp: 3223823977</p>
+               <p><a class="btn btn-secondary text-white" href="https://wa.me/573223823977">whatsapp</a></p>
+            </div><!-- / .whatsapp -->
+    
+         
+    
+         <div class="col-lg-4">
+            <img  src="assets/gmail.webp" class="bd-placeholder-img " width="35" height="35" alt="">
+            <p class="fs-1 mb-1 text-white">Gmail: cesantonigo@gmail.com</p>
+           <p><a class="btn btn-secondary text-white" href="https://www.google.com/intl/es-419/gmail/about/">Gmail</a></p>
+         </div><!-- / .gmail -->
+
+           
+        </div><!-- /.row contacto-->
+
+      </div>
+
+    </div>
+
+
+    <h2 class="float-end"><a href="#">Sube</a></h2>
+
+      <h2><a href="https://drive.google.com/file/d/1TtIIvxsPSbF7bMOC21WSoPnSSUYbdN3s/view?usp=sharing" target="_blank">Terminos y Condiciones</a><br><br>
+        © 2022. 
+      
+      Desarrollador: César Antonio Gómez Montaño <br></h2>
+  </div><!-- /.Pie de pagina-->
+
+
+
+
+<!-- Scripts Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+ 
+
+  </body></html>
+
+
+ 
